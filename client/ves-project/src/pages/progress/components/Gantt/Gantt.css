@@ -1,0 +1,6 @@
+html, body, #root,#root div:only-child, .gantt-container {
+    height: 100%;
+  }
+  .gantt-container {
+    height: calc(100vh - 50px - 200px);
+  }
